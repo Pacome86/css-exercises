@@ -1,11 +1,10 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  height: 80px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
@@ -19,19 +18,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*border: 2px solid red; this for visual help*/
   display: flex;
-  flex-wrap: wrap;
-  /*border: 2px solid red; for visual aid*/
-  gap: 14px;
+  margin: 0;
   padding: 0;
-}
-
-.left-links {
-  margin-left:-170px;
-}
-
-.right-links {
-  margin-right: -170px;
+  gap: 10px;
 }
 
 a {
